@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rocha Beira</title>
+  <style>
+    body {
+      margin: 0;
+      background: #101114;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .menu {
+      max-width: 360px;
+      margin: 35px auto;
+      padding: 20px;
+      background: #202127;
+      border: 1px solid #454650;
+      border-radius: 16px;
+    }
+    h2 { color: #73e6a0; }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid #393a42;
+    }
+    button {
+      background: #36bd78;
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 14px;
+      color: #07160d;
+      font-weight: bold;
+    }
+    p { color: #b9bac4; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <main class="menu">
+    <h2>ROCHA BEIRA</h2>
+    <p>Menu de personalização • Minecraft Bedrock</p>
+
+    <div class="item">
+      <span>Modo escuro</span>
+      <input type="checkbox" checked>
+    </div>
+    <div class="item">
+      <span>Mostrar informações</span>
+      <input type="checkbox" checked>
+    </div>
+    <div class="item">
+      <span>Cor do menu</span>
+      <input type="color" value="#36bd78">
+    </div>
+    <p>Este é um protótipo visual. Não altera a jogabilidade.</p>
+    <button onclick="alert('Menu aberto!')">Testar menu</button>
+  </main>
+</body>
+</html>
